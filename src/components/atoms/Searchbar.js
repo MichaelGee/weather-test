@@ -31,7 +31,7 @@ const SaerchInput = styled.input`
     border: 0;
     width: 100%;
     font-size: 16px;
-    padding: 20px 20px 20px 60px;
+    padding: 15px 15px 15px 60px;
     outline: 0;
 `
 
@@ -41,7 +41,7 @@ export const Searchbar = () => {
         <Container display='flex' justifyContent='center' alignItems='center'>
           <Search size="1.5rem" />
            <SaerchInput type="text" placeholder="Search city..."/>
-           <Button>Search</Button>
+           <Button >Search</Button>
         </Container>
     )
 }
